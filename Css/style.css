@@ -1,0 +1,189 @@
+
+/* Start Section Home */
+
+#Home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.home-content{
+    z-index: 1;
+    color: white;
+    width: 100%;
+    
+}
+.home-content h1{
+    font-size: 3.75rem ;
+}
+span{
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+span i {
+ margin-right: 10px;
+}
+.layer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+
+.sidenav{
+    z-index: 9999;
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black !important;
+}
+.sidenav a{
+text-align: center;
+ text-decoration: none;
+ color: white;
+ transition: .5s;
+ font-size: 1.5rem;
+}
+.sidenav .closebtn{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 40px;
+}
+.sidenav a:hover{
+
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+
+/* END Section Home */
+
+<!-- /* Start Section Accordion */ -->
+
+
+#Accordion .container{
+    margin-top: 100px ;
+    margin-bottom: 100px ;
+
+}
+.toggle{
+    background-color: rgba(214, 46, 51 , 0.6);
+    margin: 0;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+#Accordion .inner
+{
+    background-color: #ccc;
+    padding: 10px;
+    display: none;
+
+}
+
+
+<!-- /* END Section Accordion */ -->
+
+<!-- /* Start Section Counter */ -->
+
+
+
+#Counter .container-fluid{
+    /* background-color: blueviolet; */
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75%;
+    position: relative;
+    margin-bottom: 100px ;
+
+}
+
+
+#Counter .layar
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.col-md-3{
+height: 200px;
+width: 200px;
+
+}
+
+
+.timer{
+    z-index: 1;
+    border: 1px white solid;
+    height: 200px;
+    width: 200px
+}
+
+
+
+
+<!-- /* END Section Counter */ -->
+
+
+
+<!-- /* Start Section Contact us */ -->
+
+#contactUs .container{
+  
+    margin-bottom: 100px ;
+
+}
+
+#contactUs a {
+    text-decoration: none;
+    color: red;
+}
+.col-md-6 i {
+    margin-right: 20px;
+}
+
+.icons{
+    display: flex;
+}
+.icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 40px;
+  width: 40px;
+    padding: 5;
+    border: 1px solid black;
+}
+.icons i:hover {
+    background-color: rgba(214, 46, 51 , 0.6);
+ color: gray;
+ cursor: pointer;
+}
+.btn {
+    border-radius: none !important;
+}
+
+.content{
+    text-align: center;
+
+}
+<!-- /* End Section Contact us */ -->
