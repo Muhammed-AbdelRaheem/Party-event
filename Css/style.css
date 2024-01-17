@@ -1,6 +1,16 @@
 
 /* Start Section Home */
 
+#backTop{
+    position: fixed;
+    z-index: 99999;
+    right: 20px;
+    bottom: 30px;
+    display: none;
+    cursor: pointer;
+
+}
+
 #Home{
     background-image: url(../images/events-heavenly-header.jpg);
     background-position: center;

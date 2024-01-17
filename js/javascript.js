@@ -26,6 +26,20 @@ $("#menu a").on("click",function  ( ) {
 })
 $("body,html").scrollTop(0)
 
+
+$(window).scroll(function  ( ) {
+  let scrollposition =$(window).scrollTop()
+  let homePosition=$("#Home").offset().top;
+  if (scrollposition>=homePosition) {
+    $("#backTop").fadeIn(1000)
+  }
+ }
+)
+
+$("#backTop").on("click",function  ( ) {
+  $("body,html").animate({scrollTop:0},1000)
+})
+
 /* End Section Home */
 
 /* Start Section Accordion */
